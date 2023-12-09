@@ -36,8 +36,9 @@ ROOT_FOLDER/
 Then, you should download the DeepSpeech pretrained model from this [link](https://github.com/SeanNaren/deepspeech.pytorch/releases) provided by the [DeepSpeech 2 PyTorch](https://github.com/SeanNaren/deepspeech.pytorch)
 
 ## Introduction
-Deep Speech 2<sup>[1]</sup> is a state-of-the-art Automatic Speech Recognition (ASR) system, notable for its end-to-end training capability where spectrograms are directly utilized to generate predicted sentences. In this work, we implement the first trial of completely inaudible (ultrasonic) adversarial perturbation attacks against this ASR system. In this way, the classical PGD (Projected Gradient Descent) algorithm can also render an efficient optimization.
+Deep Speech 2<sup>[1]</sup> is a state-of-the-art Automatic Speech Recognition (ASR) system, notable for its end-to-end training capability where spectrograms are directly utilized to generate predicted sentences. 
 
+In this work, we implement the first trial of completely inaudible (ultrasonic) adversarial perturbation attacks against this ASR system. In this way, the classical PGD (Projected Gradient Descent) algorithm can also render an efficient optimization.
 
 
 [1] Amodei, D., Ananthanarayanan, S., Anubhai, R., Bai, J., Battenberg, E., Case, C., ... & Zhu, Z. (2016, June). Deep speech 2: End-to-end speech recognition in english and mandarin. In International conference on machine learning (pp. 173-182).
