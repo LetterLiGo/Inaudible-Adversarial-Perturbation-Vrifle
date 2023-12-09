@@ -1,10 +1,10 @@
 # VRifle
 
-This is the implementation of "Inaudible Adversarial Perturbation: Manipulating the Recognition of User Speech in Real Time"
+This is the implementation of "Inaudible Adversarial Perturbation: Manipulating the Recognition of User Speech in Real Time".
 
-We thank the author of [deepspeech2-pytorch-adversarial-attack](https://github.com/Kaminyou/deepspeech2-pytorch-adversarial-attack) for providing a good basis for our code, which attacks deepspeech2 model.
+We would like to thank the author of deepspeech2-pytorch-adversarial-attack for providing an excellent foundation for our code, which targets the DeepSpeech2 model.
 
-We also thank the contributors of [deepspeech.pytorch](https://github.com/SeanNaren/deepspeech.pytorch) for establishing a easy-to-use DeepSpeech Framework.
+We also extend our gratitude to the contributors of deepspeech.pytorch for developing an easy-to-use DeepSpeech framework.
 
 <!-- The pytorch version STFT algorithm is from [this repo](https://github.com/pseeth/torch-stft). -->
 ## Citation
@@ -36,7 +36,9 @@ ROOT_FOLDER/
 Then, you should download the DeepSpeech pretrained model from this [link](https://github.com/SeanNaren/deepspeech.pytorch/releases) provided by the [DeepSpeech 2 PyTorch](https://github.com/SeanNaren/deepspeech.pytorch)
 
 ## Introduction
-Deep Speech 2 <sup>[1]</sup> is a modern ASR system, which enables end-to-end training as spectrogram is directly utilized to generate predicted sentence. In this work, PGD (Projected gradient descent) and FGSM (Fast Gradient Sign Method) algorithms are implemented to conduct adversarial attack against this ASR system.
+Deep Speech 2<sup>[1]</sup> is a state-of-the-art Automatic Speech Recognition (ASR) system, notable for its end-to-end training capability where spectrograms are directly utilized to generate predicted sentences. In this work, we implement the first trial of completely inaudible (ultrasonic) adversarial perturbation attacks against this ASR system. In this way, the classical PGD (Projected Gradient Descent) algorithm can also render an efficient optimization.
+
+
 
 [1] Amodei, D., Ananthanarayanan, S., Anubhai, R., Bai, J., Battenberg, E., Case, C., ... & Zhu, Z. (2016, June). Deep speech 2: End-to-end speech recognition in english and mandarin. In International conference on machine learning (pp. 173-182).
 
@@ -54,7 +56,7 @@ python main_vrifle.py --attack_type Universal_robust --device 0
 Actually, several parameters are available to make your adversarial attack better. You may tune hypyerparameters such as `epsilon`, `alpha`, and `PGD_iter` to adjusted for better results. For the details, please refer to `main_vrifle.py` and `vrifle_attack.py`.
 
 ## <span id="jump"> Support DeepSpeech on 3090 GPUs (NVIDIA)</span>
-**Through our many attempts and googles, the following setup details are formed :)**
+**Through our numerous attempts and extensive research, we have established the following setup details :)**
 
 ### Install Deepspeech.pytorch
 1. Download [deepspeech.pytorch](https://github.com/SeanNaren/deepspeech.pytorch/archive/refs/tags/V2.1.zip)
