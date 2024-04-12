@@ -1,6 +1,6 @@
 # Inaudible Adversarial Perturbation: Manipulating the Recognition of User Speech in Real Time
 
-This is the core implementation of (VRifle) "Inaudible Adversarial Perturbation: Manipulating the Recognition of User Speech in Real Time".
+This is the core implementation for (VRifle) "[Inaudible Adversarial Perturbation: Manipulating the Recognition of User Speech in Real Time](https://www.ndss-symposium.org/ndss-paper/inaudible-adversarial-perturbation-manipulating-the-recognition-of-user-speech-in-real-time/)", in Proceedings of Network and Distributed System Security 2024 Symposium (NDSS 2024).
 
 We would like to thank the author of deepspeech2-pytorch-adversarial-attack for providing an excellent foundation for our code, which targets the DeepSpeech2 model.
 
