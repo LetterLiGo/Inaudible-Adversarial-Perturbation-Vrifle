@@ -13,7 +13,7 @@ If you think this repo helps you, please consider cite in the following format.
 @inproceedings{li2024vrifle,
   title={Inaudible Adversarial Perturbation: Manipulating the Recognition of User Speech in Real Time},
   author={Li, Xinfeng and Yan, Chen and Lu, Xuancun and Zeng, Zihan and Ji, Xiaoyu and Xu, Wenyuan},
-  booktitle={NDSS},
+  booktitle={In the 31st Annual Network and Distributed System Security Symposium (NDSS)},
   year={2024}
 }
 ```
